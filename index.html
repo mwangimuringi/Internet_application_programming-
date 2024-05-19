@@ -1,23 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasks</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tailwind Css Final Installation</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+<body class="text-gray-600 px-5" >
+    <div><!--content wrapper-->
+        <div>
+            <nav>
+                <div>
+                    <h1 class="font-bold uppercase p-4">
+                        <a href="http://">TEK sytems</a>
+                    </h1>
+                </div>
+                <ul>
+                    <li>
+                        <a href="http=#">
+                            <span class="text-gray-900 text-xl">Home</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http=#">
+                            <span>About</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http=#">
+                            <span>Contact</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div><!--end nav-->
 
-<body>
-    <h1>Tasks</h1>
-    <div>
-        <form id="myForm">
-            <label for="new-task-description">Task Description: </label>
-            <input id="tasks" placeholder="New Task" type="text" />
-            <input id="submit" type="submit" value="Create a new task" />
-        </form>
-        <ul id="tasksList"></ul>
+        <main class="bg-white">
+            <div class="flex  justify-center md:justify-end ">
+                <a href="#" class="text-red-500">Log in</a>
+                <a href="# " class="text-red-500 ml-2">Sign up</a>
+            </div>
+           
+            <header>
+                <h1 class="text-gray-900 text-xl  font-semibold font-mono">Coffee product</h1>
+                <h2 class="my-5 ">For Kahawa yetu</h2>
+            </header>
+
+            <div>
+                <h4 class="px-10">Arabica coffee</h4>
+                <div class= "card">
+                    <!--messages go here-->
+                    <div>
+                        <img src="/img/coffe.jpeg" alt="Drying coffe" srcset="" class="w-full h-32 sm:48 object-cover">
+                        <!-- <img src="/img/kenyacoffee.jpg" alt="Kenyan Coffee farmers" srcset=""> -->
+
+                        <div>
+                            <span>Price of coffee</span>
+                            <span>Solution by agri-economist</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 Mins</span>
+                        </div>
+                    </div>
+                </div>
+                <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Most frequent diseases</h4>
+                <div>
+                    <!--messages go here-->
+                </div>
+
+                <div class="flex justify-end">
+                    <div class="bg-gray-300">Next page</div>
+                </div>
+            </div>
+        </main>
     </div>
-    <script src="main.js"></script>
+    
 </body>
-
 </html>
